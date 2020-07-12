@@ -1,6 +1,6 @@
-# graphQL
+# GraphQL
 
-My attempt to learning graphQL.
+My attempt to learning GraphQL.
 
 This is the backend for a gaming portal and allows for features such as adding players, games, making friends, purchasing games etc.
 
