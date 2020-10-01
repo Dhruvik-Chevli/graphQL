@@ -11,9 +11,7 @@ exp.connectMongo = () => {
       useCreateIndex: true,
       useFindAndModify: false
     },
-    (err) => {
-      if (err) console.log(err);
-      else console.log("Connected to MongoDB");
+      (err) => console.log(err || `Connected to MongoDB`);
     }
   );
 };
